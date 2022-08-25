@@ -28,3 +28,6 @@ The total work is n^2 * 1/2, but we drop constants so O(n^2).
 This one loops through arrayA, and for each element in arrayA, it will loop through arrayB and print "[i], [j]".
 
 O(ab) because we have to account for both arrays. O(n2) wouldn't be the runtime because it's not the same array that is being looped through.
+
+## 5
+
