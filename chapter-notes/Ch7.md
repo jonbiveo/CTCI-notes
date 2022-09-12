@@ -40,3 +40,4 @@ Interviews are supposed to be difficult. Listen for guidance from interviewer. T
     - Hot spots, like arithmetic and null nodes
     - Small test cases. It's much faster than a big test case and just as effective
     - Special cases and edge cases
+test
