@@ -21,18 +21,27 @@ Interviews are supposed to be difficult. Listen for guidance from interviewer. T
 
 1. Listen - Make sure you look at every single detail in the description of the problem. Everything is useful to solve it.
 
-2. Example - Most examples don't encompass every constraint that the problem could have. Find special cases, and make it bigger if needed.
+2. Example - Most examples don't encompass every constraint that the problem could have. Find special cases, and make it bigger if needed. Make an example that's not a special case, you want to leave enough time to at least get a base case solution. Once you have the base case dealt with, you can solve for the special cases. 
 
 3. Brute Force - Get a brute force solution up and running ASAP, but don't code it yet. You'll optimize it later.
 
-4. Optimize - Optimize your brute force method with BUD.
+4. Optimize - 
+    1. Look for any unused info.
+    2. Come up with fresh examples. Sometimes you'll see a pattern a different way. 
+    3. Solve it incorrectly. It might get you closer to where you need to be. 
+    4. Make time vs space tradeoff. Storing extra state might give you better runtime.
+    5. Compute info ahead of time in the algorithm.
+    6. HASH TABLE
+    7. Find best conceivable runtime.
+    
+    Optimize your brute force method with BUD.
     - Bottlenecks
     - Unnecessary Work
     - Duplicated Work
 
-5. Walkthrough - Walk through your approach in detail, and speak out loud.
+5. Walk Through - Walk through your approach in detail, and speak out loud. Understand your algorithm thoroughly before coding. Understanding is important to make sure you code it properly.
 
-6. Implement - Write beautiful code. Modularize from the beginning and refactor to clean any ugly stuff up. KEEP TALKING
+6. Implement - Write beautiful code. Modularize from the beginning and refactor to clean any ugly stuff up. KEEP TALKING. Use good, descriptive variable names. 
 
 7. Test - Testing Order
     - Conceptual test. Walk through your code like a detailed code review
@@ -40,4 +49,3 @@ Interviews are supposed to be difficult. Listen for guidance from interviewer. T
     - Hot spots, like arithmetic and null nodes
     - Small test cases. It's much faster than a big test case and just as effective
     - Special cases and edge cases
-test
